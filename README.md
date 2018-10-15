@@ -12,7 +12,7 @@ Time spent: **5** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [x] GIF Walkthrough:
-      <img src="./CVE-2015-3440/CVE-2015-3440.gif" width="794"/>
+      <img src="./vulnerabilities/CVE-2015-3440/CVE-2015-3440.gif" width="794"/>
   - [x] Steps to recreate:
     1. Use an account that is allowed to post comments to the affected site.
     2. Post a comment that contains XSS injection content followed by at least 64 kilobytes of text.
@@ -26,7 +26,7 @@ Time spent: **5** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [x] GIF Walkthrough:
-    <img src="./CVE-2017-6814/CVE-2017-6814.gif" width="819"/>
+    <img src="./vulnerabilities/CVE-2017-6814/CVE-2017-6814.gif" width="819"/>
   - [x] Steps to recreate:
     1. Create an MP3 file with payload as an ID3 attribute (e.g., Track Title)
     2. Using an editor or administrator account, upload the MP3 file to affected site's media library.
@@ -40,7 +40,7 @@ Time spent: **5** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.21
   - [x] GIF Walkthrough:
-    <img src="./CVE-2018-12895/CVE-2018-12895.gif" width="758"/>
+    <img src="./vulnerabilities/CVE-2018-12895/CVE-2018-12895.gif" width="758"/>
   - [x] Steps to recreate:
     1. As an authorized user, upload an image to the affected site's media library.
     2. Click the "edit" link and note the image's ID as well as the _wpnonce value in the edit page form.
@@ -54,9 +54,11 @@ Time spent: **5** hours spent in total
 ## Assets
 
 Assets used for each vulnerability can be found in their folders:
-[CVE-2015-3440](./CVE-2015-3440/)
-[CVE-2017-6814](./CVE-2017-6814/)
-[CVE-2018-12895](./CVE-2018-12895/)
+[CVE-2015-3440](./vulnerabilities/CVE-2015-3440/)
+
+[CVE-2017-6814](./vulnerabilities/CVE-2017-6814/)
+
+[CVE-2018-12895](./vulnerabilities/CVE-2018-12895/)
 
 ## Resources
 
