@@ -54,6 +54,7 @@ Time spent: **5** hours spent in total
 ## Assets
 
 Assets used for each vulnerability can be found in their folders:
+
 [CVE-2015-3440](./vulnerabilities/CVE-2015-3440/)
 
 [CVE-2017-6814](./vulnerabilities/CVE-2017-6814/)
@@ -69,7 +70,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+The biggest challenge was using LiceCap, because 8 FPS gifs make me sad. 
 
 ## License
 
